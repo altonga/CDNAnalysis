@@ -1,5 +1,5 @@
 ,,,Namelookup,Namelookup,Namelookup,Connect,Connect,Connect,Appconnect,Appconnect,Appconnect,Pretransfer,Pretransfer,Pretransfer,Starttransfer,Starttransfer,Starttransfer,Total,Total,Total
 ,,,amin,mean,amax,amin,mean,amax,amin,mean,amax,amin,mean,amax,amin,mean,amax,amin,mean,amax
 CDN,Domain,URL,,,,,,,,,,,,,,,,,,
-ChinaCache,gmw.cn,http://gmw.cn,0.001,0.001,0.001,0.161,0.1666,0.182,0.0,0.0,0.0,0.161,0.1667,0.182,0.329,0.5691,2.296,0.846,1.0991,2.532
-Google,youtube.com,https://www.youtube.com,0.001,0.001,0.001,0.011,0.0136,0.018,0.111,0.1172,0.123,0.111,0.1172,0.123,0.166,0.1701,0.177,1.062,1.3414,1.549
+ChinaCache,gmw.cn,http://gmw.cn,0.001,0.001,0.001,0.153,0.1691,0.195,0.0,0.0,0.0,0.153,0.1693,0.196,0.315,0.3851,0.502,0.808,0.928,1.146
+Google,youtube.com,https://www.youtube.com,0.001,0.001,0.001,0.011,0.0128,0.015,0.109,0.1455,0.4,0.11,0.1456,0.4,0.158,0.1976,0.455,1.186,3.6563,23.612

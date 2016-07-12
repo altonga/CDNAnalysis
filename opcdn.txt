@@ -1,24 +1,24 @@
 +----+------------+-------------+-------------------------+--------------+-----------+--------------+---------------+-----------------+---------+
 |    | CDN        | Domain      | URL                     |   Namelookup |   Connect |   Appconnect |   Pretransfer |   Starttransfer |   Total |
 |----+------------+-------------+-------------------------+--------------+-----------+--------------+---------------+-----------------+---------|
-|  0 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.016 |        0.123 |         0.123 |           0.177 |   1.312 |
-|  1 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.014 |        0.117 |         0.117 |           0.168 |   1.352 |
-|  2 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.015 |        0.114 |         0.114 |           0.167 |   1.459 |
-|  3 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.018 |        0.123 |         0.123 |           0.175 |   1.361 |
-|  4 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.011 |        0.111 |         0.111 |           0.17  |   1.425 |
-|  5 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.012 |        0.113 |         0.113 |           0.166 |   1.334 |
-|  6 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.012 |        0.118 |         0.118 |           0.172 |   1.549 |
-|  7 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.012 |        0.12  |         0.12  |           0.171 |   1.062 |
-|  8 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.013 |        0.117 |         0.117 |           0.167 |   1.107 |
-|  9 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.013 |        0.116 |         0.116 |           0.168 |   1.453 |
-| 10 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.164 |        0     |         0.164 |           0.395 |   0.929 |
-| 11 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.164 |        0     |         0.165 |           2.296 |   2.532 |
-| 12 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.173 |        0     |         0.173 |           0.398 |   0.97  |
-| 13 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.162 |        0     |         0.162 |           0.397 |   1.148 |
-| 14 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.182 |        0     |         0.182 |           0.443 |   1.037 |
-| 15 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.161 |        0     |         0.161 |           0.36  |   0.851 |
-| 16 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.176 |        0     |         0.176 |           0.41  |   0.979 |
-| 17 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.161 |        0     |         0.161 |           0.334 |   0.852 |
-| 18 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.161 |        0     |         0.161 |           0.329 |   0.846 |
-| 19 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.162 |        0     |         0.162 |           0.329 |   0.847 |
+|  0 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.015 |        0.116 |         0.116 |           0.167 |   1.213 |
+|  1 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.011 |        0.109 |         0.11  |           0.159 |   1.496 |
+|  2 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.014 |        0.113 |         0.113 |           0.169 |   1.593 |
+|  3 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.013 |        0.12  |         0.12  |           0.176 |   1.231 |
+|  4 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.011 |        0.117 |         0.117 |           0.17  |   1.237 |
+|  5 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.012 |        0.113 |         0.113 |           0.161 |  23.612 |
+|  6 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.015 |        0.137 |         0.137 |           0.196 |   1.456 |
+|  7 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.013 |        0.4   |         0.4   |           0.455 |   1.52  |
+|  8 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.011 |        0.111 |         0.111 |           0.158 |   1.186 |
+|  9 | Google     | youtube.com | https://www.youtube.com |        0.001 |     0.013 |        0.119 |         0.119 |           0.165 |   2.019 |
+| 10 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.157 |        0     |         0.157 |           0.341 |   0.872 |
+| 11 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.177 |        0     |         0.178 |           0.427 |   0.974 |
+| 12 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.195 |        0     |         0.196 |           0.491 |   1.119 |
+| 13 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.193 |        0     |         0.193 |           0.502 |   1.146 |
+| 14 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.173 |        0     |         0.173 |           0.35  |   0.862 |
+| 15 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.166 |        0     |         0.166 |           0.372 |   0.897 |
+| 16 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.159 |        0     |         0.159 |           0.35  |   0.868 |
+| 17 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.165 |        0     |         0.165 |           0.387 |   0.913 |
+| 18 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.153 |        0     |         0.153 |           0.315 |   0.808 |
+| 19 | ChinaCache | gmw.cn      | http://gmw.cn           |        0.001 |     0.153 |        0     |         0.153 |           0.316 |   0.821 |
 +----+------------+-------------+-------------------------+--------------+-----------+--------------+---------------+-----------------+---------+
