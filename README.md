@@ -3,6 +3,8 @@ Analysis of CDNs used by top sites as per Alexa.
 
 I used as input a mapping file which associates domains with the CDNs. 
 
+Command: python cdnanalysis.py -i top-1m.csv -c cdnproviders.csv -o opcdn -t 500
+
 For the top 500 Alexa websites, I could extract infomation for only 2 CDNs 
 -- ChinaCache and Google. Following are the observations from an experiment 
 run 10 times to obtain the time split:
