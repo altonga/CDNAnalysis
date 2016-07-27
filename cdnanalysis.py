@@ -20,7 +20,7 @@ dns_server = '8.8.8.8:53'
 def get_timing(cdn_domain_list, ofile):
     '''
     Get mean time to first byte for the sites served by top CDNs.
-    Try the different prefixes to form url. If curl feteches any of these
+    Try the different prefixes to form url. If curl fetches any of these
     successfully, then run the experiments num_experiments times.
     Store details of each run of experiments in pretty formatted table as .txt
     file. Store the min, mean, max information per CDN in .csv file.
